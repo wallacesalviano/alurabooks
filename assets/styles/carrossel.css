@@ -66,16 +66,25 @@
     font-size: 14px;
 }
 
+.descricao__imagem{
+    border-radius: 10px;
+}
+
 .botoes__item {
     margin: 0 0.5em;
 }
 
 .botoes__ancora {
     background-color: var(--laranja);
-    padding: 1em 2.2em;
+    padding: 1em 2.7em;
     color: var(--branco);
     font-weight: 700;
     text-decoration: none;
+    border-radius: 10px;
+}
+
+.botoes__ancora:hover{
+    background-color: rgb(206, 127, 54);
 }
 
 .card__descricao__imagem{

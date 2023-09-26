@@ -28,6 +28,7 @@
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
+    border-radius: 5px;
 }
 
 .topicos__link:hover{

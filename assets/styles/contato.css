@@ -5,7 +5,7 @@
 
 .contato__titulo{
     color: var(--azul);
-    font-weight: 500;
+    font-weight: 800;
     font-size: 18px;
 }
 
@@ -20,6 +20,7 @@
     border-radius: 24px;
     border: 2px solid var(--azul);
     color: var(--azul);
+    text-align: center;
 }
 
 .contato__email::placeholder{
