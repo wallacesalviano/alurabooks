@@ -1,24 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Borel&family=Inter:wght@100;200;400;700&family=Kanit:wght@200;300;400&family=Krona+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,200&family=Open+Sans:wght@300;400;600&family=Poppins:wght@100;200;300;400;500;700&family=Roboto+Slab:wght@100;200;300&display=swap');
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/footer.css");
 
-@import url("assets/styles/header.css");
-@import url("assets/styles/banner.css");
-@import url("assets/styles/carrossel.css");
-@import url("assets/styles/footer.css");
-@import url("assets/styles/contato.css");
-@import url("assets/styles/topicos.css");
-
-:root{
+:root {
     --cor-de-fundo: #EBECEE;
-    --laranja: #EB9B00;
     --branco: #FFFFFF;
+    --laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
     --azul: #002F52;
-    --cinza: #F9F9F9
-    --fonte-padrao: 'Poppins'
+    --fonte-secundario: "Josefin Sans";
+    --preto: #000000;
+    --cinza: #474646;
+    --cinza-claro: #858585;
 }
 
-body{
+body {
     background-color: var(--cor-de-fundo);
-    font-family: var(--fonte-padrao);
+    font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
 }

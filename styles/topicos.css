@@ -1,36 +1,40 @@
-.topicos{
-    background-color: var(--azul);
-    padding: 1em 0;
+.tópicos {
+    background: var(--azul-degrade);
     text-align: center;
+    padding: 1em 0;
 }
 
-.topicos__titulo{
+.tópicos__titulo {
     color: var(--branco);
     font-weight: 300;
     margin-bottom: 1em;
 }
 
-.topicos__lista{
+.tópicos__lista {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0.5em;
 }
 
-.topicos__item{
+.tópicos__item {
     margin: 2em 0.5em;
 }
 
-.topicos__link {
+.tópicos__link {
     color: var(--branco);
-    padding: 1.5em;
+    padding: 1em;
     background-color: var(--laranja);
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
-    border-radius: 5px;
 }
 
-.topicos__link:hover{
-    background-color: rgb(206, 127, 54);
+@media screen and (min-width: 1024px) {
+    .tópicos__titulo {
+        font-size: 20px;
+    }
+
+    .tópicos__link {
+        font-size: 24px;
+    }
 }
